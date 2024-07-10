@@ -11,17 +11,20 @@
 }
 
 .gradient {
+  --height: calc(1.5 * 100vh);
+  --width: calc(1.5 * 100vw);
   position: absolute;
-  width: 150%;
+  /* To adapt for mobile phone and desktop device screen */
+  width: max(var(--height), var(--width));
   aspect-ratio: 1;
   background: linear-gradient(
     270deg,
-    rgb(189, 36, 36),
-    rgb(51, 175, 51),
-    rgb(229, 229, 68),
-    rgb(121, 195, 224),
-    skyblue,
-    rgb(66, 66, 226)
+    rgb(151, 23, 23),
+    rgb(0, 141, 196),
+    rgb(24, 98, 24),
+    rgb(44, 83, 99),
+    rgb(226, 226, 0),
+    rgb(2, 2, 183)
   );
   background-size: 600% 600%;
   animation: GradientMoveRotate 20s linear infinite;
