@@ -1,10 +1,12 @@
 import Hero from '@root/components/Hero'
+import Skills from '@root/components/Skills'
 import SnippetsCard from '@root/components/SnippetsCard'
 
 export default function Home () {
   return (
     <main className='min-h-screen px-6 pt-16 md:px-24 md:pt-24 flex flex-col'>
       <Hero />
+      <Skills />
       <SnippetsCard />
       <footer className='mt-auto self-center'>
         <p className='text-xs mb-4'>

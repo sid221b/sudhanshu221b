@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import SocialLinks from './SocialLinks'
 
 const Hero = () => {
   return (
@@ -12,6 +13,7 @@ const Hero = () => {
         <p className='opacity-70'>
           A Frontend web and hybrid mobile app developer...
         </p>
+        <SocialLinks />
       </div>
       <div className='mb-6 md:mb-0'>
         <Image

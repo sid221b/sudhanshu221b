@@ -18,7 +18,7 @@ const page = () => {
             return (
               <Link
                 href={route}
-                className='flex flex-1 md:flex-0 h-36 md:w-60 p-5 rounded-md hover:scale-105 hover:brightness-150 card-transition duration-300 hover:shadow-md'
+                className='flex flex-1 md:flex-0 h-36 md:w-60 p-5 rounded-md hover:scale-105 hover:brightness-150 transition-card-transition duration-300 hover:shadow-xl'
                 key={id}
                 style={{ background }}
               >

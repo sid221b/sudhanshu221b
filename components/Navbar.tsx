@@ -6,7 +6,6 @@ import { usePathname, useRouter } from 'next/navigation'
 
 const Navbar = () => {
   const path = usePathname()
-  console.log('🚀 ~ Navbar ~ path:', path)
   const router = useRouter()
 
   const isHome = path === '/'

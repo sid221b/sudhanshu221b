@@ -4,3 +4,10 @@ export type MiniProjectRecord = {
   background: string
   id: number
 }
+
+export type SkillsRecord = {
+  id: number
+  name: string
+  stars: number
+  icon: string
+}

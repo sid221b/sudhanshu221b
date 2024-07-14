@@ -14,8 +14,8 @@ const config: Config = {
         serif: ['var(--font-app-2)'],
       },
       dropShadow: {
-        base: '2px 4px 6px black',
-        'base-white': '2px 4px 6px white',
+        base: '2px 2px 8px black',
+        'base-white': '2px 2px 8px white',
       },
       transitionProperty: {
         'card-transition': 'filter, transform',

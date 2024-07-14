@@ -30,6 +30,9 @@
   .nav-icon {
     @apply fill-slate-800 dark:fill-slate-50 drop-shadow-base dark:drop-shadow-base-white;
   }
+  .icon {
+    @apply fill-slate-800 dark:fill-slate-50;
+  }
   .layout {
     @apply min-h-screen px-6 pt-16 md:px-24 md:pt-24 flex flex-col;
   }
