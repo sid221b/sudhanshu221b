@@ -20,6 +20,9 @@ const config: Config = {
       transitionProperty: {
         'card-transition': 'filter, transform',
       },
+      backdropBlur: {
+        base: '2px',
+      },
     },
   },
   plugins: [],

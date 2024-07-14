@@ -1,9 +1,11 @@
 import Link from 'next/link'
 import React from 'react'
+import ComingSoonOverlay from './ComingSoonOverlay'
 
 const SnippetsCard = () => {
   return (
-    <div className='my-4 py-6 px-8 bg-slate-200 dark:bg-slate-800 rounded-2xl'>
+    <div className='my-4 py-6 px-8 bg-slate-200 dark:bg-slate-800 rounded-2xl relative overflow-hidden'>
+      <ComingSoonOverlay />
       <h1 className='mb-3'>
         Snippets{' '}
         <code className='ml-2 px-2 rounded text-blue-400 bg-slate-900'>
