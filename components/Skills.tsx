@@ -49,7 +49,7 @@ const Skills = () => {
                   )
                 })}
             </div>
-            <p className='md:group-hover/skill:translate-y-[10px] group-hover/skill:font-semibold duration-300 transition-transform'>
+            <p className='mb-0 md:group-hover/skill:translate-y-[10px] group-hover/skill:font-semibold duration-300 transition-transform'>
               {name}
             </p>
           </div>
