@@ -11,3 +11,14 @@ export type SkillsRecord = {
   stars: number
   icon: string
 }
+
+export type CompanyRecord = {
+  id: number
+  name: string
+  icon: string
+  location: string
+  startDate: string
+  endDate: string
+  isRemote: boolean
+  skills: string[]
+}

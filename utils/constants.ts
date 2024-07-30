@@ -1,4 +1,4 @@
-import { MiniProjectRecord, SkillsRecord } from './types'
+import { CompanyRecord, MiniProjectRecord, SkillsRecord } from './types'
 
 export const miniProjects: MiniProjectRecord[] = [
   {
@@ -111,5 +111,38 @@ export const skillsData: SkillsRecord[] = [
     name: 'VS Code',
     stars: 4,
     icon: '/assets/vscode.webp',
+  },
+]
+
+export const companiesData: CompanyRecord[] = [
+  {
+    id: 1,
+    name: 'Housing.com',
+    icon: '/assets/companies/housing.webp',
+    startDate: 'June, 2021',
+    endDate: 'Present',
+    location: 'Gurgaon, Haryana',
+    isRemote: true,
+    skills: ['React', 'Redux', 'React Native', 'emotion-ui', 'CSS'],
+  },
+  {
+    id: 2,
+    name: 'Jellyfish Technologies',
+    icon: '/assets/companies/jellyfish.webp',
+    startDate: 'Oct, 2020',
+    endDate: 'June, 2021',
+    location: 'Noida, UP',
+    isRemote: true,
+    skills: ['React', 'Redux', 'CSS', 'ant-design'],
+  },
+  {
+    id: 3,
+    name: 'Montaigne Smart Business Solutions',
+    icon: '/assets/companies/montaigne.webp',
+    startDate: 'Nov, 2019',
+    endDate: 'June, 2020',
+    location: 'Hyderabad, Telangana',
+    isRemote: false,
+    skills: ['React', 'Redux', 'Gatsby', 'SASS/SCSS', 'styled-component'],
   },
 ]

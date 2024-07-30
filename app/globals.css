@@ -12,6 +12,12 @@
   h3 {
     @apply text-lg text-gray-950 dark:text-gray-100;
   }
+  h4 {
+    @apply text-base text-gray-900 dark:text-gray-200;
+  }
+  h5 {
+    @apply text-base text-gray-900 dark:text-gray-200;
+  }
   p {
     @apply text-base text-gray-900 dark:text-gray-200 mb-1 tracking-wide;
   }
