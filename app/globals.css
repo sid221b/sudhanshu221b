@@ -21,6 +21,9 @@
   p {
     @apply text-base text-gray-900 dark:text-gray-200 mb-1 tracking-wide;
   }
+  li {
+    @apply list-disc ml-6 md:ml-8 mb-2;
+  }
 }
 
 @layer components {

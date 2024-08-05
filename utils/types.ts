@@ -21,4 +21,7 @@ export type CompanyRecord = {
   endDate: string
   isRemote: boolean
   skills: string[]
+  position: string
+  achievement?: string
+  workAndRes: string[]
 }
