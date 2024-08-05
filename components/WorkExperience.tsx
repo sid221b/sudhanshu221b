@@ -91,7 +91,9 @@ const WorkExperience = () => {
                         </li>
                       )}
                       {workAndRes.map(item => (
-                        <li key={item}>{item}</li>
+                        <li key={item}>
+                          <p className='opacity-85'>{item}</p>
+                        </li>
                       ))}
                     </ul>
                     <div className='mt-8 flex gap-2 md:gap-4'>
