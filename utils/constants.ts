@@ -1,4 +1,4 @@
-import { MiniProjectRecord, SkillsRecord } from './types'
+import { CompanyRecord, MiniProjectRecord, SkillsRecord } from './types'
 
 export const miniProjects: MiniProjectRecord[] = [
   {
@@ -111,5 +111,61 @@ export const skillsData: SkillsRecord[] = [
     name: 'VS Code',
     stars: 4,
     icon: '/assets/vscode.webp',
+  },
+]
+
+export const companiesData: CompanyRecord[] = [
+  {
+    id: 1,
+    name: 'Housing.com',
+    icon: '/assets/companies/housing.webp',
+    startDate: 'June, 2021',
+    endDate: 'Present',
+    location: 'Gurgaon, Haryana',
+    isRemote: true,
+    skills: ['React', 'Redux', 'React Native', 'emotion-ui', 'CSS'],
+    position: 'Senior Software Development Engineer',
+    achievement:
+      'Received 2 Spot Light awards for Ownership and Excellence. Also got promoted to Senior position.',
+    workAndRes: [
+      'Integrated Razorpay Custom UI sdk in React Native app with custom housing UI for credit card and wallet method.',
+      'Implemented pre commit and pre push hooks for validating test cases and linting rules also added cashing in these so it would run 70-90% faster',
+      'Implemented complex user interactive referral animation and Instagram story like feature in RN app.',
+      'Implemented Github Actions on raising PR with main branch to run test cases and create test coverage.',
+      'Implemented many large production feature from scratch in React web app and React Native app.',
+    ],
+  },
+  {
+    id: 2,
+    name: 'Jellyfish Technologies',
+    icon: '/assets/companies/jellyfish.webp',
+    startDate: 'Oct, 2020',
+    endDate: 'June, 2021',
+    location: 'Noida, UP',
+    isRemote: true,
+    skills: ['React', 'Redux', 'CSS', 'ant-design'],
+    position: 'Software Developer',
+    workAndRes: [
+      'Worked on legacy codebase optimization, improved web app load time from ~3sec to ~500ms.',
+      "Upgraded app's React 15 to 17 and resolving coding issues and optimizations.",
+      'Collaborated with cross-functional and international teams to ensure seamless integration and implementation of new features',
+    ],
+  },
+  {
+    id: 3,
+    name: 'Montaigne Smart Business Solutions',
+    icon: '/assets/companies/montaigne.webp',
+    startDate: 'Nov, 2019',
+    endDate: 'June, 2020',
+    location: 'Hyderabad, Telangana',
+    isRemote: false,
+    skills: ['React', 'Redux', 'Gatsby', 'SASS/SCSS', 'styled-component'],
+    achievement: 'Received `Employee Of The Month` Award.',
+    position: 'Associate Software Developer',
+    workAndRes: [
+      "Learned React and it's eco system and Created Employee management portal from scratch.",
+      'Transform design into React component and implement new features and bug fixes in Dashboard.',
+      'Worked on Gatsby blog site which is connected with wordpress CMS.',
+    ],
   },
 ]

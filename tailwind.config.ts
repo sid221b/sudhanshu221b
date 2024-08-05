@@ -23,6 +23,9 @@ const config: Config = {
       backdropBlur: {
         base: '2px',
       },
+      spacing: {
+        22: '5.4rem',
+      },
     },
   },
   plugins: [],

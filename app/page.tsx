@@ -1,6 +1,7 @@
 import Hero from '@root/components/Hero'
 import Skills from '@root/components/Skills'
 import SnippetsCard from '@root/components/SnippetsCard'
+import WorkExperience from '@root/components/WorkExperience'
 
 export default function Home () {
   return (
@@ -8,6 +9,7 @@ export default function Home () {
       <Hero />
       <Skills />
       <SnippetsCard />
+      <WorkExperience />
       <footer className='mt-auto self-center'>
         <p className='text-xs mb-4'>
           Made by{' '}
